@@ -8,6 +8,7 @@ import Mountains from "./components/Destination/Mountains"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
+import Spiritual from "./components/Destination/Spiritual";
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/activity" element={<Activity/>}/>
         <Route path="/mountain" element={<Mountains/>}/>
+        <Route path="/spiritual" element={<Spiritual/>}/>
       </Routes>
     </>
   )
